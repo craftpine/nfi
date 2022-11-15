@@ -50,7 +50,7 @@ function App() {
   const renderNetWork = useMemo(() => {
     if (network === "") return null;
     return (
-      <p>
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         <b>NetWork:</b> {network}
       </p>
     );
